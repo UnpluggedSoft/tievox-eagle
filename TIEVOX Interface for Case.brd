@@ -3104,7 +3104,7 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="Jameco: 230958" x="8.89" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="CP1" library="rcl" package="E3,5-8" value="1000uF" x="66.04" y="12.7" rot="R90"/>
-<element name="GPIO1" library="connectors" package="RPI_GPIO_FEMALE_BOTTOM" value="RPI_GPIO_FEMALE_LOWER" x="38.1" y="43.815" rot="R270"/>
+<element name="GPIO1" library="connectors" package="RPI_GPIO_FEMALE_BOTTOM" value="RPI_GPIO_FEMALE_LOWER" x="36.83" y="43.18" rot="R270"/>
 <element name="IC_PWR_1" library="packages" package="NE12S" value="6A" x="50.8" y="10.795"/>
 <element name="SPIO1" library="pinhead" package="2X04" value="2.4GHz" x="72.39" y="53.34"/>
 <element name="TI" library="con-thomas-betts" package="H5R25RA" value="D-SUB25-H5R25RA" x="83.185" y="41.91" rot="R90">
@@ -3139,33 +3139,25 @@ design rules under a new name.</description>
 <element name="R8" library="adafruit" package="R1005" value="3.9K" x="78.105" y="74.295" rot="MR90"/>
 <element name="WRITE" library="jumper" package="04C" value="" x="88.265" y="71.755" rot="R180"/>
 <element name="MIC1" library="adafruit" package="1X03" value="" x="74.93" y="19.05" rot="R90"/>
-<element name="BP_PRIUS" library="connectors" package="BACKPOWER" value="BACKPOWER" x="33.02" y="14.605"/>
+<element name="BP_PRIUS" library="connectors" package="BACKPOWER" value="BACKPOWER" x="33.02" y="15.24"/>
 <element name="BP_CONSOLE" library="connectors" package="BACKPOWER" value="BACKPOWER" x="33.02" y="27.94" rot="R180"/>
 </elements>
 <signals>
 <signal name="+5VDC">
 <contactref element="GPIO1" pad="2_5VDC"/>
-<contactref element="GPIO1" pad="4_5VDC"/>
 <contactref element="TI" pad="5"/>
 <contactref element="BP_PRIUS" pad="PWR_OUT"/>
 <contactref element="BP_CONSOLE" pad="PWR_OUT"/>
-<wire x1="62.23" y1="42.545" x2="81.7626" y2="47.4472" width="0" layer="19" extent="1-1"/>
-<wire x1="59.69" y1="42.545" x2="62.23" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="33.02" y1="27.94" x2="59.69" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="33.02" y1="14.605" x2="33.02" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="41.91" x2="81.7626" y2="47.4472" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="27.94" x2="60.96" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="15.24" x2="33.02" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="GPIO1" pad="6_GND"/>
-<contactref element="GPIO1" pad="20_GND"/>
 <contactref element="GPIO1" pad="14_GND"/>
-<contactref element="GPIO1" pad="34_GND"/>
-<contactref element="GPIO1" pad="39_GND"/>
-<contactref element="GPIO1" pad="25_GND"/>
-<contactref element="GPIO1" pad="9_GND"/>
 <contactref element="TI" pad="14"/>
 <contactref element="IC_PWR_1" pad="GND"/>
 <contactref element="SPIO1" pad="1"/>
-<contactref element="GPIO1" pad="30_GND"/>
 <contactref element="UART1" pad="GND"/>
 <contactref element="CONSOLE1" pad="CASE2"/>
 <contactref element="CONSOLE1" pad="CASE1"/>
@@ -3191,19 +3183,13 @@ design rules under a new name.</description>
 <wire x1="67.93" y1="69.215" x2="72.91" y2="70.615" width="0" layer="19" extent="16-16"/>
 <wire x1="84.6074" y1="57.1373" x2="82.55" y2="71.755" width="0" layer="19" extent="1-1"/>
 <wire x1="68.58" y1="52.07" x2="84.6074" y2="57.1373" width="0" layer="19" extent="1-1"/>
-<wire x1="57.15" y1="42.545" x2="68.58" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="52.07" y1="45.085" x2="57.15" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="42.545" x2="52.07" y2="45.085" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="42.545" x2="46.99" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="45.085" x2="39.37" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="42.545" x2="31.75" y2="45.085" width="0" layer="19" extent="1-1"/>
-<wire x1="21.59" y1="42.545" x2="26.67" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="45.085" x2="21.59" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="34.29" x2="26.67" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="27.94" x2="24.13" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="14.605" x2="30.48" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="35.71875" y1="3.01625" x2="35.56" y2="14.605" width="0" layer="19" extent="1-1"/>
-<wire x1="52.07" y1="19.685" x2="35.56" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="41.91" x2="68.58" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="41.91" x2="55.88" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="27.94" x2="45.72" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="34.29" x2="30.48" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="15.24" x2="30.48" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="35.71875" y1="3.01625" x2="35.56" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="19.685" x2="35.56" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="54.2" y1="10.795" x2="52.07" y2="19.685" width="0" layer="19" extent="1-1"/>
 <wire x1="66.04" y1="14.478" x2="54.2" y2="10.795" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="19.99" x2="24.13" y2="34.29" width="0" layer="19" extent="1-1"/>
@@ -3211,7 +3197,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="+3.3VDC">
 <contactref element="GPIO1" pad="1_3.3VDC"/>
-<contactref element="GPIO1" pad="17_3.3VDC"/>
 <contactref element="TI" pad="4"/>
 <contactref element="SPIO1" pad="2"/>
 <contactref element="C1" pad="2"/>
@@ -3224,9 +3209,8 @@ design rules under a new name.</description>
 <wire x1="69.23" y1="69.215" x2="69.215" y2="74.945" width="0" layer="19" extent="16-16"/>
 <wire x1="72.91" y1="67.815" x2="69.23" y2="69.215" width="0" layer="19" extent="16-16"/>
 <wire x1="68.58" y1="54.61" x2="72.91" y2="67.815" width="0" layer="19" extent="16-16"/>
-<wire x1="62.23" y1="45.085" x2="68.58" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="44.45" x2="68.58" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="81.7626" y1="50.2158" x2="68.58" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="41.91" y1="45.085" x2="62.23" y2="45.085" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWR12_TRIM">
 <contactref element="IC_PWR_1" pad="TRIM"/>
@@ -3243,71 +3227,71 @@ design rules under a new name.</description>
 <contactref element="GPIO1" pad="19_SPI0_MOSI"/>
 <contactref element="TI" pad="17"/>
 <wire x1="73.66" y1="54.61" x2="84.6074" y2="48.8315" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="45.085" x2="73.66" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="44.45" x2="73.66" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="GPIO1" pad="21_SPI0_MISO"/>
 <contactref element="SPIO1" pad="7"/>
 <contactref element="TI" pad="16"/>
 <wire x1="76.2" y1="52.07" x2="84.6074" y2="51.6001" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="45.085" x2="76.2" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="44.45" x2="76.2" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="GPIO1" pad="23_SPI0_SCLK"/>
 <contactref element="SPIO1" pad="5"/>
 <contactref element="TI" pad="15"/>
 <wire x1="73.66" y1="52.07" x2="84.6074" y2="54.3687" width="0" layer="19" extent="1-1"/>
-<wire x1="34.29" y1="45.085" x2="73.66" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="44.45" x2="73.66" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="GPIO1" pad="26_SPI0_CE1"/>
 <contactref element="SPIO1" pad="3"/>
-<wire x1="31.75" y1="42.545" x2="71.12" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="41.91" x2="71.12" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="GPIO1" pad="31_GPIO6"/>
 <contactref element="SPIO1" pad="8"/>
-<wire x1="24.13" y1="45.085" x2="76.2" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="44.45" x2="76.2" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="GPIO1" pad="7_GPIO4"/>
 <contactref element="TI" pad="2"/>
-<wire x1="54.61" y1="45.085" x2="81.7626" y2="55.753" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="44.45" x2="81.7626" y2="55.753" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="TI" pad="3"/>
 <contactref element="GPIO1" pad="11_GPIO17"/>
-<wire x1="49.53" y1="45.085" x2="81.7626" y2="52.9844" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="44.45" x2="81.7626" y2="52.9844" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="SPIO1" pad="4"/>
 <contactref element="GPIO1" pad="37_GPIO26"/>
-<wire x1="16.51" y1="45.085" x2="71.12" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="44.45" x2="71.12" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="GPIO1" pad="13_GPIO27"/>
 <contactref element="TI" pad="7"/>
-<wire x1="46.99" y1="45.085" x2="81.7626" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="44.45" x2="81.7626" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="GPIO1" pad="24_SPI0_CE0"/>
 <contactref element="TI" pad="18"/>
-<wire x1="34.29" y1="42.545" x2="84.6074" y2="46.0629" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="41.91" x2="84.6074" y2="46.0629" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="GPIO1" pad="29_GPIO5"/>
 <contactref element="TI" pad="19"/>
-<wire x1="26.67" y1="45.085" x2="84.6074" y2="43.2943" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="44.45" x2="84.6074" y2="43.2943" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="GPIO1" pad="16_GPIO23"/>
 <contactref element="TI" pad="20"/>
-<wire x1="44.45" y1="42.545" x2="84.6074" y2="40.5257" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="41.91" x2="84.6074" y2="40.5257" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="GPIO1" pad="15_GPIO22"/>
 <contactref element="TI" pad="21"/>
-<wire x1="44.45" y1="45.085" x2="84.6074" y2="37.7571" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="44.45" x2="84.6074" y2="37.7571" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="CONSOLE1" pad="4"/>
@@ -3332,12 +3316,12 @@ design rules under a new name.</description>
 <signal name="N$18">
 <contactref element="GPIO1" pad="8_UART_TXD"/>
 <contactref element="UART1" pad="TXD"/>
-<wire x1="24.13" y1="26.67" x2="54.61" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="26.67" x2="53.34" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="GPIO1" pad="10_UART_RXD"/>
 <contactref element="UART1" pad="RXD"/>
-<wire x1="24.13" y1="29.21" x2="52.07" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="29.21" x2="50.8" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="TI" pad="11"/>
@@ -3372,17 +3356,17 @@ design rules under a new name.</description>
 <signal name="N$26">
 <contactref element="TI" pad="12"/>
 <contactref element="GPIO1" pad="3_I2C1_SDA"/>
-<wire x1="59.69" y1="45.085" x2="81.7626" y2="28.067" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="44.45" x2="81.7626" y2="28.067" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="TI" pad="13"/>
 <contactref element="GPIO1" pad="5_I2C1_SCL"/>
-<wire x1="57.15" y1="45.085" x2="81.7626" y2="25.2984" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="44.45" x2="81.7626" y2="25.2984" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONSOLE_ON">
 <contactref element="UART1" pad="3.3VDC"/>
 <contactref element="GPIO1" pad="38_GPIO20"/>
-<wire x1="24.13" y1="31.75" x2="16.51" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="31.75" x2="15.24" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="CP1" pad="+"/>
@@ -3404,7 +3388,7 @@ design rules under a new name.</description>
 <signal name="N$38">
 <contactref element="GPIO1" pad="27_ID_SD_EEPROM"/>
 <contactref element="U4" pad="6"/>
-<wire x1="29.21" y1="45.085" x2="73.91" y2="67.815" width="0" layer="19" extent="16-16"/>
+<wire x1="27.94" y1="44.45" x2="73.91" y2="67.815" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$39">
 <contactref element="U4" pad="7"/>
@@ -3418,7 +3402,7 @@ design rules under a new name.</description>
 <contactref element="GPIO1" pad="28_ID_SC_EEPROM"/>
 <contactref element="R7" pad="1"/>
 <wire x1="69.215" y1="73.645" x2="74.41" y2="67.815" width="0" layer="19" extent="16-16"/>
-<wire x1="29.21" y1="42.545" x2="69.215" y2="73.645" width="0" layer="19" extent="16-16"/>
+<wire x1="27.94" y1="41.91" x2="69.215" y2="73.645" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$36">
 <contactref element="TI" pad="9"/>
@@ -3433,17 +3417,41 @@ design rules under a new name.</description>
 <signal name="N$41">
 <contactref element="GPIO1" pad="33_GPIO13"/>
 <contactref element="MIC1" pad="3"/>
-<wire x1="21.59" y1="45.085" x2="74.93" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="44.45" x2="74.93" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="F1" pad="P$2"/>
 <contactref element="BP_PRIUS" pad="PWR_IN"/>
-<wire x1="30.48" y1="14.605" x2="46.99" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="15.24" x2="46.99" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="F2" pad="P$2"/>
 <contactref element="BP_CONSOLE" pad="PWR_IN"/>
 <wire x1="24.28875" y1="19.52625" x2="35.56" y2="27.94" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="20_GND">
+<contactref element="GPIO1" pad="20_GND"/>
+</signal>
+<signal name="34_GND">
+<contactref element="GPIO1" pad="34_GND"/>
+</signal>
+<signal name="9_GND">
+<contactref element="GPIO1" pad="9_GND"/>
+</signal>
+<signal name="25_GND">
+<contactref element="GPIO1" pad="25_GND"/>
+</signal>
+<signal name="39_GND">
+<contactref element="GPIO1" pad="39_GND"/>
+</signal>
+<signal name="30_GND">
+<contactref element="GPIO1" pad="30_GND"/>
+</signal>
+<signal name="4_5VDC">
+<contactref element="GPIO1" pad="4_5VDC"/>
+</signal>
+<signal name="17_3.3VDC">
+<contactref element="GPIO1" pad="17_3.3VDC"/>
 </signal>
 </signals>
 <errors>

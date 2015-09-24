@@ -16632,10 +16632,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <wire x1="137.16" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GPIO1" gate="G$1" pin="4_5VDC"/>
-<wire x1="137.16" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="-15.24" y1="96.52" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="68.58" x2="2.54" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="TI" gate="-5" pin="F"/>
@@ -16662,30 +16658,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <wire x1="137.16" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GPIO1" gate="G$1" pin="20_GND"/>
-<wire x1="137.16" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GPIO1" gate="G$1" pin="14_GND"/>
 <wire x1="137.16" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GPIO1" gate="G$1" pin="34_GND"/>
-<wire x1="137.16" y1="40.64" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="165.1" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="GPIO1" gate="G$1" pin="39_GND"/>
-<wire x1="127" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="GPIO1" gate="G$1" pin="25_GND"/>
-<wire x1="96.52" y1="33.02" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="GPIO1" gate="G$1" pin="9_GND"/>
-<wire x1="96.52" y1="50.8" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<junction x="96.52" y="50.8"/>
-<wire x1="96.52" y1="30.48" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
-<junction x="96.52" y="33.02"/>
 </segment>
 <segment>
 <wire x1="55.88" y1="96.52" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
@@ -16724,10 +16698,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <pinref part="SPIO1" gate="A" pin="1"/>
 <wire x1="73.66" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="63.5" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GPIO1" gate="G$1" pin="30_GND"/>
-<wire x1="137.16" y1="45.72" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="UART1" gate="G$1" pin="GND"/>
@@ -16786,10 +16756,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <pinref part="GPIO1" gate="G$1" pin="1_3.3VDC"/>
 <wire x1="99.06" y1="96.52" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="GPIO1" gate="G$1" pin="17_3.3VDC"/>
-<wire x1="99.06" y1="81.28" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
-<junction x="99.06" y="81.28"/>
 </segment>
 <segment>
 <wire x1="-12.7" y1="96.52" x2="-12.7" y2="71.12" width="0.1524" layer="91"/>
