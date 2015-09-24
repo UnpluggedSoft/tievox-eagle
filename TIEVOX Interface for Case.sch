@@ -1499,153 +1499,6 @@ Board: TTD-C GS27159</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-lsta">
-<description>&lt;b&gt;Female Headers etc.&lt;/b&gt;&lt;p&gt;
-Naming:&lt;p&gt;
-FE = female&lt;p&gt;
-# contacts - # rows&lt;p&gt;
-W = angled&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="PWR_HDR_FEMALE_2X7">
-<description>&lt;b&gt;FEMALE HEADER for POWER 2x7&lt;/b&gt;</description>
-<wire x1="-8.255" y1="3.048" x2="8.255" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="-2.413" x2="8.89" y2="2.413" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-2.413" x2="-8.89" y2="2.413" width="0.1524" layer="21"/>
-<wire x1="-8.255" y1="-3.048" x2="8.255" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="2.413" x2="-8.255" y2="3.048" width="0.1524" layer="21" curve="-90"/>
-<wire x1="8.255" y1="3.048" x2="8.89" y2="2.413" width="0.1524" layer="21" curve="-90"/>
-<wire x1="8.255" y1="-3.048" x2="8.89" y2="-2.413" width="0.1524" layer="21" curve="90"/>
-<wire x1="-8.89" y1="-2.413" x2="-8.255" y2="-3.048" width="0.1524" layer="21" curve="90"/>
-<circle x="-7.62" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="-7.62" y="1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="-5.08" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="-5.08" y="1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="-2.54" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="-2.54" y="1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="0" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="0" y="1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="2.54" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="2.54" y="1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="-7.62" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="-7.62" y="1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="-5.08" y="1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="-2.54" y="1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="0" y="1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="2.54" y="1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="-5.08" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="-2.54" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="2.54" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="5.08" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="7.62" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="7.62" y="1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="5.08" y="1.27" radius="0.127" width="0.4064" layer="51"/>
-<circle x="5.08" y="1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="5.08" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="7.62" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="7.62" y="1.27" radius="0.889" width="0.1524" layer="51"/>
-<pad name="+12VDC" x="-7.62" y="1.27" drill="0.9144"/>
-<pad name="GND1" x="-7.62" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="+5VDC1" x="-5.08" y="1.27" drill="0.9144" shape="octagon"/>
-<pad name="GND2" x="-5.08" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="+5VDC2" x="-2.54" y="1.27" drill="0.9144" shape="octagon"/>
-<pad name="GND3" x="-2.54" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="+5VDC3" x="0" y="1.27" drill="0.9144" shape="octagon"/>
-<pad name="GND4" x="0" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="+3.3VDC1" x="2.54" y="1.27" drill="0.9144" shape="octagon"/>
-<pad name="GND5" x="2.54" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="+3.3VDC2" x="5.08" y="1.27" drill="0.9144" shape="octagon"/>
-<pad name="GND6" x="5.08" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="+3.3VDC3" x="7.62" y="1.27" drill="0.9144" shape="octagon"/>
-<pad name="GND7" x="7.62" y="-1.27" drill="0.9144" shape="octagon"/>
-<text x="-8.89" y="-3.429" size="1.27" layer="25" ratio="10" rot="R180" align="bottom-right">&gt;NAME</text>
-<text x="-7.62" y="3.81" size="0.8128" layer="21" align="bottom-center">GND</text>
-<text x="-5.08" y="3.81" size="0.8128" layer="21" align="bottom-center">GND</text>
-<text x="-2.54" y="3.81" size="0.8128" layer="21" align="bottom-center">GND</text>
-<text x="0" y="3.81" size="0.8128" layer="21" align="bottom-center">GND</text>
-<text x="2.54" y="3.81" size="0.8128" layer="21" align="bottom-center">GND</text>
-<text x="5.08" y="3.81" size="0.8128" layer="21" align="bottom-center">GND</text>
-<text x="7.62" y="3.81" size="0.8128" layer="21" align="bottom-center">GND</text>
-<text x="-7.62" y="5.08" size="0.8128" layer="21" align="bottom-center">12V</text>
-<text x="-5.08" y="5.08" size="0.8128" layer="21" align="bottom-center">5V</text>
-<text x="-2.54" y="5.08" size="0.8128" layer="21" align="bottom-center">5V</text>
-<text x="0" y="5.08" size="0.8128" layer="21" align="bottom-center">5V</text>
-<text x="2.54" y="5.08" size="0.8128" layer="21" align="bottom-center">3.3V</text>
-<text x="5.08" y="5.08" size="0.8128" layer="21" align="bottom-center">3.3V</text>
-<text x="7.62" y="5.08" size="0.8128" layer="21" align="bottom-center">3.3V</text>
-</package>
-</packages>
-<symbols>
-<symbol name="PWR_HDR_FEMALE_2X7">
-<description>&lt;b&gt;FEMALE HEADER forr POWER 2x7&lt;/b&gt;</description>
-<wire x1="3.81" y1="-10.16" x2="-3.81" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="-1.905" y1="-3.175" x2="-1.905" y2="-1.905" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-1.905" y1="-5.715" x2="-1.905" y2="-4.445" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-1.905" y1="-8.255" x2="-1.905" y2="-6.985" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.905" y1="-1.905" x2="1.905" y2="-3.175" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.905" y1="-4.445" x2="1.905" y2="-5.715" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.905" y1="-6.985" x2="1.905" y2="-8.255" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-1.905" y1="1.905" x2="-1.905" y2="3.175" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.905" y1="3.175" x2="1.905" y2="1.905" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-1.905" y1="6.985" x2="-1.905" y2="8.255" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-1.905" y1="4.445" x2="-1.905" y2="5.715" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.905" y1="8.255" x2="1.905" y2="6.985" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.905" y1="5.715" x2="1.905" y2="4.445" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-3.81" y1="10.16" x2="-3.81" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="3.81" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="10.16" x2="3.81" y2="10.16" width="0.4064" layer="94"/>
-<text x="-3.81" y="10.922" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="-7.62" y="-7.62" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
-<pin name="3" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
-<pin name="5" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
-<pin name="2" x="7.62" y="-7.62" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="4" x="7.62" y="-5.08" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="6" x="7.62" y="-2.54" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="7" x="-7.62" y="0" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
-<pin name="9" x="-7.62" y="2.54" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
-<pin name="8" x="7.62" y="0" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="10" x="7.62" y="2.54" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="11" x="-7.62" y="5.08" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
-<pin name="13" x="-7.62" y="7.62" visible="pad" length="middle" direction="pwr" swaplevel="1"/>
-<pin name="12" x="7.62" y="5.08" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="14" x="7.62" y="7.62" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PWR_HDR_FEMALE_2X7" prefix="PWR">
-<description>POWER HEADER, FEMALE 2x7</description>
-<gates>
-<gate name="G$1" symbol="PWR_HDR_FEMALE_2X7" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PWR_HDR_FEMALE_2X7">
-<connects>
-<connect gate="G$1" pin="1" pad="GND1"/>
-<connect gate="G$1" pin="10" pad="+3.3VDC1"/>
-<connect gate="G$1" pin="11" pad="GND6"/>
-<connect gate="G$1" pin="12" pad="+3.3VDC2"/>
-<connect gate="G$1" pin="13" pad="GND7"/>
-<connect gate="G$1" pin="14" pad="+3.3VDC3"/>
-<connect gate="G$1" pin="2" pad="+12VDC"/>
-<connect gate="G$1" pin="3" pad="GND2"/>
-<connect gate="G$1" pin="4" pad="+5VDC1"/>
-<connect gate="G$1" pin="5" pad="GND3"/>
-<connect gate="G$1" pin="6" pad="+5VDC2"/>
-<connect gate="G$1" pin="7" pad="GND4"/>
-<connect gate="G$1" pin="8" pad="+5VDC3"/>
-<connect gate="G$1" pin="9" pad="GND5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -16692,7 +16545,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <part name="GPIO1" library="connectors" deviceset="RPI_GPIO*" device="_FEMALE_LOWER"/>
 <part name="CP1" library="rcl" deviceset="CPOL-US" device="E3.5-8" value="1000uF"/>
 <part name="IC_PWR_1" library="packages" deviceset="NE12S*" device="12V6A" value="6A"/>
-<part name="HD_PWR_1" library="con-lsta" deviceset="PWR_HDR_FEMALE_2X7" device=""/>
 <part name="SPIO1" library="pinhead" deviceset="PINHD-2X4" device="" value="2.4GHz"/>
 <part name="UART1" library="packages" deviceset="GS27159" device=""/>
 <part name="CONSOLE1" library="connector" deviceset="USB-R" device="A"/>
@@ -16745,7 +16597,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <instance part="GPIO1" gate="G$1" x="132.08" y="58.42"/>
 <instance part="CP1" gate="G$1" x="30.48" y="-27.94"/>
 <instance part="IC_PWR_1" gate="G$1" x="0" y="-27.94"/>
-<instance part="HD_PWR_1" gate="G$1" x="76.2" y="114.3" rot="R270"/>
 <instance part="SPIO1" gate="A" x="76.2" y="58.42"/>
 <instance part="UART1" gate="G$1" x="91.44" y="7.62" rot="R270"/>
 <instance part="CONSOLE1" gate="G$1" x="50.8" y="10.16"/>
@@ -16798,18 +16649,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <pinref part="BP_PRIUS" gate="G$1" pin="PWR_OUT"/>
 <wire x1="17.78" y1="2.54" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="2.54" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="HD_PWR_1" gate="G$1" pin="4"/>
-<wire x1="71.12" y1="96.52" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="HD_PWR_1" gate="G$1" pin="6"/>
-<wire x1="73.66" y1="96.52" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="HD_PWR_1" gate="G$1" pin="8"/>
-<wire x1="76.2" y1="96.52" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BP_CONSOLE" gate="G$1" pin="PWR_OUT"/>
@@ -16905,36 +16744,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <junction x="119.38" y="12.7"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="96.52" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="HD_PWR_1" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="124.46" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="HD_PWR_1" gate="G$1" pin="3"/>
-<wire x1="71.12" y1="121.92" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
-<junction x="71.12" y="124.46"/>
-<pinref part="HD_PWR_1" gate="G$1" pin="5"/>
-<wire x1="73.66" y1="121.92" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<junction x="73.66" y="124.46"/>
-<pinref part="HD_PWR_1" gate="G$1" pin="7"/>
-<wire x1="76.2" y1="121.92" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
-<junction x="76.2" y="124.46"/>
-<pinref part="HD_PWR_1" gate="G$1" pin="9"/>
-<wire x1="78.74" y1="124.46" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
-<junction x="78.74" y="124.46"/>
-<pinref part="HD_PWR_1" gate="G$1" pin="11"/>
-<wire x1="81.28" y1="124.46" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
-<junction x="81.28" y="124.46"/>
-<pinref part="HD_PWR_1" gate="G$1" pin="13"/>
-<wire x1="83.82" y1="124.46" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
-<junction x="83.82" y="124.46"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="190.5" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -16994,18 +16803,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <wire x1="88.9" y1="63.5" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="HD_PWR_1" gate="G$1" pin="10"/>
-<wire x1="78.74" y1="96.52" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="HD_PWR_1" gate="G$1" pin="12"/>
-<wire x1="81.28" y1="96.52" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="HD_PWR_1" gate="G$1" pin="14"/>
-<wire x1="83.82" y1="96.52" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="VCC"/>
 <wire x1="190.5" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="63.5" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
@@ -17041,16 +16838,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/1502_01.pdf</description>
 <net name="PWR12_IN" class="0">
 <segment>
 <pinref part="TI" gate="-1" pin="F"/>
-<wire x1="-7.62" y1="86.36" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="IC_PWR_1" gate="G$1" pin="VIN"/>
-<wire x1="-7.62" y1="63.5" x2="-7.62" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="86.36" x2="-7.62" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-22.86" x2="-5.08" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="63.5" x2="-10.16" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="63.5" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-7.62" y="63.5"/>
-<wire x1="-10.16" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="HD_PWR_1" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="93.98" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
