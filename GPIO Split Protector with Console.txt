@@ -1,0 +1,48 @@
+Partlist
+
+Exported from GPIO Split Protector with Console.brd at 5/16/2016 5:00 PM
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part      Value          Package           Library                         Position (mm)         Orientation
+
+CONSOLE1                 USBBF-1           connector                       (8.5725 4.445)        R180
+D1        3.3V           DO41Z10           diode                           (59.3725 58.42)       R180
+D2        3.3V           DO41Z10           diode                           (54.2925 50.8)        R90
+D3        3.3V           DO41Z10           diode                           (61.9125 50.8)        R90
+D4        3.3V           DO41Z10           diode                           (69.5325 50.8)        R90
+D5        3.3V           DO41Z10           diode                           (77.1525 50.8)        R90
+D6        3.3V           DO41Z10           diode                           (54.2925 38.1)        R90
+D7        3.3V           DO41Z10           diode                           (65.7225 38.1)        R90
+D8        3.3V           DO41Z10           diode                           (73.3425 38.1)        R90
+D9        3.3V           DO41Z10           diode                           (54.2925 25.4)        R90
+D10       3.3V           DO41Z10           diode                           (65.7225 25.4)        R90
+D11       3.3V           DO41Z10           diode                           (69.5325 25.4)        R90
+D12       3.3V           DO41Z10           diode                           (77.1525 25.4)        R90
+D13       3.3V           DO41Z10           diode                           (54.2925 12.7)        R90
+D14       3.3V           DO41Z10           diode                           (61.9125 12.7)        R90
+D15       3.3V           DO41Z10           diode                           (77.1525 12.7)        R90
+D16       3.3V           DO41Z10           diode                           (73.3425 50.8)        R90
+D17       3.3V           DO41Z10           diode                           (58.1025 38.1)        R90
+D18       3.3V           DO41Z10           diode                           (61.9125 38.1)        R90
+D19       3.3V           DO41Z10           diode                           (69.5325 38.1)        R90
+D20       3.3V           DO41Z10           diode                           (58.1025 50.8)        R90
+D21       3.3V           DO41Z10           diode                           (65.7225 50.8)        R90
+D22       3.3V           DO41Z10           diode                           (77.1525 38.1)        R90
+D23       3.3V           DO41Z10           diode                           (58.1025 25.4)        R90
+D24       3.3V           DO41Z10           diode                           (61.9125 25.4)        R90
+D25       3.3V           DO41Z10           diode                           (73.3425 25.4)        R90
+D26       3.3V           DO41Z10           diode                           (58.1025 12.7)        R90
+D27       3.3V           DO41Z10           diode                           (65.7225 12.7)        R90
+D28       3.3V           DO41Z10           diode                           (59.3725 5.08)        R180
+F2        06R155BPR      PTC               SparkFun-PowerIC                (6.6675 60.96)        R0
+GPIO_IN   RPI_GPIOUPPER  RPI_GPIO_MALE     connectors                      (85.4075 32.5)        R0
+GPIO_OUT1 RPI_GPIOUPPER  RPI_GPIO_MALE     connectors                      (30.1625 32.5)        R0
+GPIO_OUT2 RPI_GPIOUPPER  RPI_GPIO_MALE     connectors                      (46.6725 32.5)        R0
+IC1       DMMT5401       DMMT5401          Diodes_Inc_By_element14_Batch_1 (9.525 52.3875)       R0
+Q1        DMP2305U-7     SOT103P240X110-3N Diodes_Inc_By_element14_Batch_1 (4.7625 54.2925)      R180
+R1        10K, 1%        0204/7            resistor                        (13.6525 45.085)      R90
+R2        47K, 1%        0204/7            resistor                        (3.4925 45.085)       R90
+UART1     GS27159        GS27159           packages                        (8.5725 26.3525)      R0
